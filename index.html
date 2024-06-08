@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+    .home-section {
+    background-color: #e3f2fd; 
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-top: 40px;
+    }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Java Tourism</a>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Place">Place</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Home -->
+    <section id="Home" class="home-section">
+        <div class="container mt-5"> <!--Memberi jarak antara tepi elemen dengan elemen lain menggunakan margin top 4-->
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <div class="video-container">
+                        <img src="https://i.pinimg.com/736x/12/00/d3/1200d3b3d04c6ec0a819109e7ef4b4cb.jpg" alt="Gunung Merapi">
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-10 position-absolute top-10 start-5 translate-middle-x">
+                    <div class="toko-content">
+                        <h1 style="font-size: 65px;">Java Tourism</h1>
+                        <p style="font-size: 20px;">Let's create beautiful memories in Java!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Place -->
+     <section id="Place" class="place-section">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+            <div class="col">
+              <div class="card">
+                <img src="https://i.pinimg.com/736x/4c/72/d0/4c72d0268a2175f0c721937074c9bf5a.jpg" class="card-img-top" alt="Kepulauan Seribu">
+                <div class="card-body">
+                  <h5 class="card-title">Kepulauan Seribu</h5>
+                  <p class="card-text">Kepulauan Seribu adalah kepulauan yang terletak di DKI Jakarta. Kepulauan ini merupakan wilayah perlinduungan untuk biota laut dan habitatnya.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://i.pinimg.com/564x/22/82/2e/22822e932e1c6ef286d4ee306e914e2c.jpg" class="card-img-top" alt="Gunung Merbabu">
+                <div class="card-body">
+                  <h5 class="card-title">Gunung Merbabu</h5>
+                  <p class="card-text">Gunung Merbabu adalah gunung berapi aktif yang terletak di Jawa Tengah. Gunung ini memiliki dua padang sabana dan terdapat empat kawah di puncaknya, yaitu Kawah Condrodimuko, Kawah Kombang, Kawah Rebab, dan Kawah Sambernyowo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://i.pinimg.com/564x/5a/97/f1/5a97f176d2aa6e11c950f7d18a39d2fb.jpg" class="card-img-top" alt="Kawah Putih">
+                <div class="card-body">
+                  <h5 class="card-title">Kawah Putih</h5>
+                  <p class="card-text">Kawah Putih adalah danau kawah yang terletak di kaki Gunung Patuha, Kabupaten Bandung, Jawa Barat, Indonesia123. Danau ini terbentuk dari letusan Gunung Patuha dan memiliki tanah berwarna putih akibat pencampuran unsur belerang</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://i.pinimg.com/564x/20/4a/fd/204afd1a99d578329ec6f76abc429865.jpg" class="card-img-top" alt="Gunung Bromo">
+                <div class="card-body">
+                  <h5 class="card-title">Gunung Bromo</h5>
+                  <p class="card-text">Gunung Bromo merupakan salah satu gunung berapi aktif di Jawa Timur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+     </section>
+
+    <!-- Footer -->
+    <section id="Contact" class="footer-section">
+        <footer class="bg-light text-dark py-4 mt-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Java Tourism</h5>
+                  <p>Let's create beautiful memories in Java!</p>
+                </div>
+                <div class="col-md-6">
+                  <h5>Contact Us</h5>
+                  <p>Email: JavaTourism@gmail.com</p>
+                  <p>Phone: +62-123-456-7890</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+    </section>
+
+    <!--JS Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
